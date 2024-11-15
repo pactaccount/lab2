@@ -1,0 +1,6 @@
+version: 2
+
+sources:
+  - name: raw_data  # This is the database schema
+    tables:
+      - name: stockprice  # This is the table name

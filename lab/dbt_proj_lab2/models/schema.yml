@@ -1,0 +1,13 @@
+models:
+  - name: analysis
+    description: "Table containing computed stock metrics including RSI, Price Momentum, and Moving Average"
+    columns:
+      - name: date
+        description: "Unique identifier for each stock price record"
+        tests:
+          - unique              
+          - not_null 
+          - idempotent_data
+
+          
+

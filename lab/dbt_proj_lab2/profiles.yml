@@ -1,0 +1,13 @@
+dbt_proj_lab2:
+  outputs:
+    dev:
+      account: DQB02309
+      database: dev
+      password: AbHInav_9867
+      role: accountadmin
+      schema: analytics
+      threads: 1
+      type: snowflake
+      user: abhi
+      warehouse: compute_wh
+  target: dev
